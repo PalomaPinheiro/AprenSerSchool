@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:#FED001;
+    --color2:#2a2a2a;
+    --color3:#fafafa;
+    --color4:#003464;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10px*/
+    font-family: 'DM Sans', sans-serif;
+}
+
+a, p{
+    font-size: 1.6rem;
+}
+
+h1>span{
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+    padding-top: 1px;
+}
+
+.container1, .container6{
+    background-color: var(--color2);
+    color:var(--color3);
+}
+
+.container1{
+    position: sticky;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.container2{
+    background-image: linear-gradient(transparent, #fed001d3);
+}
+
+
+.container3, .container5{
+    background-color: var(--color3);
+}
+
+.container4{
+    background-color: var(--color4);
+    color:var(--color3);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color:var(--color1);
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.header img{
+    margin: 0 0 0 6rem;
+}
+
+.nav ul {
+    display: flex;
+    gap:.8rem;
+    list-style-type: none;
+    margin: .1rem 2rem .1rem 0;
+}
+
+.nav a{
+    color: inherit;
+    padding: .7rem;
+    border: solid 1px;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.nav a:hover{
+    background-color: black;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content{
+   margin-left: 30rem;
+   gap: 10rem;
+}
+
+.hero-content h1{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.btn{
+    background-color: var(--color1);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    padding: 1.2rem 2.4rem;
+    text-decoration: none;
+    color: black;
+}
+
+.btn1{
+    display: inline-block;
+    margin:4rem 0 8rem 0;
+}
+
+#courses h2{
+    font-size: 4rem;
+}
+
+.card-content{
+    padding: 1.5rem  2.2rem;
+    border: 1px solid rgba(211, 211, 211, 0.904);
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.section-title{
+    text-align: center;
+    padding:6rem;
+}
+
+
+.card-content h3{
+    font-size:2.4rem;
+}
+
+.card-content p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-top: 1.2rem;
+}
+
+#courses{
+    text-align: center;
+}
+
+.courses-cards{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.card{
+    
+    overflow: hidden;
+    flex:1;
+
+}
+
+.card img{
+    display: block;
+    width:100%;
+}
+
+.about{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    padding: 1rem 6rem 2rem 6rem;
+}
+
+.about-content h2{
+    font-size:4rem;
+    margin: .1rem 8rem 2rem 12rem;
+    
+}
+
+.about-content p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin: 1.5rem 6rem 0 4rem;
+    text-align: left;
+}
+
+#contact h2{
+    font-size: 3.6rem;
+    text-align: center;
+    margin: 6rem 0 2rem 0;
+}
+
+.contact-info{
+    text-align: right;
+    font-size: 1.8rem;
+    padding:3rem 0;
+}
+
+.footer{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.footer a{
+    color:inherit;
+    text-decoration:overline;
+}
+
+#courses, #contact, #about{
+    padding-top: 10rem;
+}
